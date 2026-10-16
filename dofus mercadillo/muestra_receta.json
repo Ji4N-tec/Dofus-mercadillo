@@ -1,0 +1,965 @@
+{
+  "total": 148,
+  "limit": 1,
+  "skip": 0,
+  "data": [
+    {
+      "_id": "69a716c596df4304dfdfa7b6",
+      "resultId": 282,
+      "resultTypeId": 12,
+      "resultLevel": 60,
+      "ingredientIds": [
+        380,
+        1731,
+        533
+      ],
+      "quantities": [
+        5,
+        1,
+        1
+      ],
+      "jobId": 26,
+      "skillId": 23,
+      "resultName": {
+        "id": "521767",
+        "de": "Verbesserter Heilungstrank",
+        "en": "Superior Health Flask",
+        "es": "Frasco de cuidados superiores",
+        "fr": "Potion de Soin supérieure",
+        "pt": "Poção de cura superior"
+      },
+      "className": "RecipeData",
+      "m_id": 282,
+      "id": 282,
+      "createdAt": "2026-03-03T17:13:41.677Z",
+      "updatedAt": "2026-03-03T17:13:41.677Z",
+      "result": {
+        "_id": "69a716bb96df4304dfdda4e4",
+        "m_flags": 1031,
+        "id": 282,
+        "typeId": 12,
+        "iconId": 12039,
+        "level": 60,
+        "realWeight": 2,
+        "price": 0,
+        "itemSetId": -1,
+        "criterions": "",
+        "criterionsTarget": "",
+        "appearanceId": 0,
+        "isColorable": false,
+        "recipeSlots": 3,
+        "recipeIds": [],
+        "dropMonsterIds": [],
+        "dropTemporisMonsterIds": [],
+        "possibleEffects": [
+          {
+            "m_flags": 15,
+            "effectUid": 0,
+            "baseEffectId": 15,
+            "actionId": 110,
+            "order": 0,
+            "targetId": 0,
+            "targetMask": "",
+            "duration": 0,
+            "random": 0,
+            "group": 0,
+            "modificator": 0,
+            "dispellable": 1,
+            "delay": 0,
+            "triggers": "",
+            "effectElement": -1,
+            "spellId": -1,
+            "effectTriggerDuration": 0,
+            "zoneDescr": {
+              "cellIds": [],
+              "shape": 67,
+              "param1": 1,
+              "param2": 0,
+              "damageDecreaseStepPercent": 10,
+              "maxDamageDecreaseApplyCount": 4,
+              "isStopAtTarget": false,
+              "forcedDirection": true,
+              "includeCarried": false,
+              "onlyAffectIfInSightLine": false
+            },
+            "value": 0,
+            "diceNum": 70,
+            "diceSide": 0,
+            "displayZero": false,
+            "visibleInTooltip": true,
+            "visibleInBuffUi": true,
+            "visibleInFightLog": true,
+            "visibleOnTerrain": true,
+            "forClientOnly": false,
+            "trigger": false,
+            "groundMarkVisible": false,
+            "groundMarkVisibleOnlyAlly": false,
+            "className": "EffectInstanceDice",
+            "effectId": 110
+          }
+        ],
+        "evolutiveEffectIds": [],
+        "favoriteSubAreas": [],
+        "favoriteSubAreasBonus": 0,
+        "craftXpRatio": -1,
+        "craftVisibleCriterion": "SC!5|ST!5",
+        "craftConditionalCriterion": "",
+        "craftFeasibleCriterion": "SC!5|ST!5",
+        "visibilityCriterion": "",
+        "recyclingNuggets": 0,
+        "favoriteRecyclingSubareas": [],
+        "resourcesBySubarea": [],
+        "name": {
+          "id": "521767",
+          "de": "Verbesserter Heilungstrank",
+          "en": "Superior Health Flask",
+          "es": "Frasco de cuidados superiores",
+          "fr": "Potion de Soin supérieure",
+          "pt": "Poção de cura superior"
+        },
+        "description": {
+          "id": "34778",
+          "de": "Diese Phiole gibt einige verlorene Lebenspunkte zurück.",
+          "en": "This flask restores some Health Points.",
+          "es": "Este frasco te permite reponer algunos puntos de vida perdidos en combate.",
+          "fr": "Cette fiole restaure quelques points de vie perdus.",
+          "pt": "Este frasco restaura alguns pontos de vida perdidos."
+        },
+        "importantNotice": {
+          "id": "0"
+        },
+        "castInLine": false,
+        "castInDiagonal": false,
+        "castTestLos": false,
+        "usable": true,
+        "targetable": true,
+        "exchangeable": true,
+        "twoHanded": false,
+        "etheral": false,
+        "hideEffects": false,
+        "enhanceable": false,
+        "nonUsableOnAnother": false,
+        "secretRecipe": false,
+        "needUseConfirm": false,
+        "isSaleable": true,
+        "isLegendary": false,
+        "className": "ItemData",
+        "m_id": 282,
+        "questsThatUse": [],
+        "questsThatReward": [],
+        "hasRecipe": true,
+        "hasLivingObjectSkinJntMood": false,
+        "recipesThatUse": [],
+        "startLegendaryTreasureHunt": 0,
+        "legendaryTreasureHuntThatReward": 0,
+        "achievementsThatReward": [],
+        "dropSubAreaIds": [],
+        "slug": {
+          "de": "verbesserter heilungstrank",
+          "en": "superior health flask",
+          "es": "frasco de cuidados superiores",
+          "fr": "potion de soin superieure",
+          "pt": "pocao de cura superior"
+        },
+        "effects": [
+          {
+            "from": 70,
+            "to": 0,
+            "characteristic": 0,
+            "category": 0,
+            "elementId": -1,
+            "effectId": 110
+          }
+        ],
+        "createdAt": "2026-03-03T17:13:31.777Z",
+        "updatedAt": "2026-10-07T22:24:37.127Z",
+        "img": "https://api.dofusdb.fr/img/items/12039.png",
+        "type": {
+          "_id": "69a716bb96df4304dfdda3b9",
+          "id": 12,
+          "superTypeId": 6,
+          "categoryId": 1,
+          "isInEncyclopedia": true,
+          "rawZone": "",
+          "craftXpRatio": 5,
+          "evolutiveTypeId": 0,
+          "name": {
+            "id": "29760",
+            "de": "Trank",
+            "en": "Potion",
+            "es": "Pócima",
+            "fr": "Potion",
+            "pt": "Poção"
+          },
+          "className": "ItemTypeData",
+          "m_id": 12,
+          "createdAt": "2026-03-03T17:13:31.515Z",
+          "updatedAt": "2026-03-03T17:13:31.515Z"
+        }
+      },
+      "ingredients": [
+        {
+          "_id": "69a716bb96df4304dfdda532",
+          "m_flags": 1092,
+          "id": 380,
+          "typeId": 36,
+          "iconId": 36052,
+          "level": 60,
+          "realWeight": 1,
+          "price": 0,
+          "itemSetId": -1,
+          "criterions": "",
+          "criterionsTarget": "",
+          "appearanceId": 0,
+          "isColorable": false,
+          "recipeSlots": 0,
+          "recipeIds": [
+            282,
+            522,
+            1687,
+            1712,
+            1820,
+            1835,
+            1837,
+            1859,
+            2028,
+            7927,
+            8343,
+            8971,
+            9035,
+            9248,
+            11798,
+            12073,
+            14275,
+            14464,
+            15163,
+            16432,
+            18208,
+            20918,
+            24387,
+            24411,
+            24444,
+            24479,
+            24565,
+            28270,
+            33372,
+            33382
+          ],
+          "dropMonsterIds": [
+            56,
+            2371
+          ],
+          "dropTemporisMonsterIds": [],
+          "possibleEffects": [],
+          "evolutiveEffectIds": [],
+          "favoriteSubAreas": [],
+          "favoriteSubAreasBonus": 0,
+          "craftXpRatio": -1,
+          "craftVisibleCriterion": "",
+          "craftConditionalCriterion": "",
+          "craftFeasibleCriterion": "",
+          "visibilityCriterion": "",
+          "recyclingNuggets": 0.009999999776482582,
+          "favoriteRecyclingSubareas": [
+            12,
+            77
+          ],
+          "resourcesBySubarea": [
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              14
+            ],
+            [
+              5,
+              3
+            ],
+            [
+              6,
+              6
+            ],
+            [
+              7,
+              5
+            ],
+            [
+              8,
+              19
+            ],
+            [
+              9,
+              20
+            ],
+            [
+              10,
+              5
+            ],
+            [
+              12,
+              2
+            ],
+            [
+              22,
+              9
+            ],
+            [
+              23,
+              6
+            ],
+            [
+              30,
+              13
+            ],
+            [
+              33,
+              4
+            ],
+            [
+              56,
+              14
+            ],
+            [
+              59,
+              9
+            ],
+            [
+              62,
+              12
+            ],
+            [
+              68,
+              16
+            ],
+            [
+              95,
+              3
+            ],
+            [
+              97,
+              19
+            ],
+            [
+              98,
+              3
+            ],
+            [
+              103,
+              9
+            ],
+            [
+              161,
+              14
+            ],
+            [
+              162,
+              3
+            ],
+            [
+              163,
+              1
+            ],
+            [
+              164,
+              12
+            ],
+            [
+              168,
+              10
+            ],
+            [
+              169,
+              7
+            ],
+            [
+              170,
+              7
+            ],
+            [
+              173,
+              7
+            ],
+            [
+              178,
+              3
+            ],
+            [
+              234,
+              14
+            ],
+            [
+              235,
+              1
+            ],
+            [
+              243,
+              3
+            ],
+            [
+              275,
+              4
+            ],
+            [
+              276,
+              7
+            ],
+            [
+              277,
+              1
+            ],
+            [
+              315,
+              1
+            ],
+            [
+              454,
+              11
+            ],
+            [
+              480,
+              12
+            ],
+            [
+              481,
+              2
+            ],
+            [
+              485,
+              1
+            ],
+            [
+              518,
+              6
+            ],
+            [
+              521,
+              3
+            ],
+            [
+              525,
+              17
+            ],
+            [
+              801,
+              5
+            ],
+            [
+              805,
+              2
+            ],
+            [
+              816,
+              7
+            ],
+            [
+              985,
+              2
+            ],
+            [
+              1021,
+              1
+            ]
+          ],
+          "name": {
+            "id": "520180",
+            "de": "Wildminze",
+            "en": "Wild Mint",
+            "es": "Menta salvaje",
+            "fr": "Menthe Sauvage",
+            "pt": "Menta selvagem"
+          },
+          "description": {
+            "id": "115292",
+            "de": "Dies ist das Hauptnahrungsmittel von Minzgelees. Drum nehmt euch in Acht. Aber: wenn ihr Wildminzengeruch riecht, bedeutet dies noch lange nicht, dass auch ein Minzgelee in der Nähe ist.",
+            "en": "This is the staple food of Green Jelly, so if you smell mint, don't get the teacups out right away...",
+            "es": "Es el alimento principal de la gelatina verde. Por lo tanto, si huele a menta a tu alrededor no es obligatoriamente porque te encuentras cerca de una de sus plantas...",
+            "fr": "C'est l'aliment de base de la Gelée Verte, si vous sentez une odeur de menthe, n'en déduisez donc pas obligatoirement qu'il y a de la menthe près de vous.",
+            "pt": "É o alimento principal da Gelatina Verde. Se você sentir um cheiro de menta por aí, isso não quer necessariamente dizer que há uma folha de menta perto de você."
+          },
+          "importantNotice": {
+            "id": "0"
+          },
+          "castInLine": false,
+          "castInDiagonal": false,
+          "castTestLos": false,
+          "usable": false,
+          "targetable": false,
+          "exchangeable": true,
+          "twoHanded": false,
+          "etheral": false,
+          "hideEffects": false,
+          "enhanceable": true,
+          "nonUsableOnAnother": false,
+          "secretRecipe": false,
+          "needUseConfirm": false,
+          "isSaleable": true,
+          "isLegendary": false,
+          "className": "ItemData",
+          "m_id": 380,
+          "questsThatUse": [
+            1102,
+            2182,
+            2455
+          ],
+          "questsThatReward": [],
+          "hasRecipe": false,
+          "hasLivingObjectSkinJntMood": false,
+          "recipesThatUse": [
+            282,
+            522,
+            1687,
+            1712,
+            1820,
+            1835,
+            1837,
+            1859,
+            2028,
+            7927,
+            8343,
+            8971,
+            9035,
+            9248,
+            11798,
+            12073,
+            14275,
+            14464,
+            15163,
+            16432,
+            18208,
+            20918,
+            28270,
+            33372,
+            33382
+          ],
+          "startLegendaryTreasureHunt": 0,
+          "legendaryTreasureHuntThatReward": 0,
+          "achievementsThatReward": [],
+          "dropSubAreaIds": [
+            12,
+            77
+          ],
+          "slug": {
+            "de": "wildminze",
+            "en": "wild mint",
+            "es": "menta salvaje",
+            "fr": "menthe sauvage",
+            "pt": "menta selvagem"
+          },
+          "effects": [],
+          "createdAt": "2026-03-03T17:13:31.777Z",
+          "updatedAt": "2026-10-07T22:24:37.139Z",
+          "img": "https://api.dofusdb.fr/img/items/36052.png",
+          "type": {
+            "_id": "69a716bb96df4304dfdda3d1",
+            "id": 36,
+            "superTypeId": 9,
+            "categoryId": 2,
+            "isInEncyclopedia": true,
+            "rawZone": "",
+            "craftXpRatio": -1,
+            "evolutiveTypeId": 0,
+            "name": {
+              "id": "29755",
+              "de": "Pflanze",
+              "en": "Plant",
+              "es": "Planta",
+              "fr": "Plante",
+              "pt": "Planta"
+            },
+            "className": "ItemTypeData",
+            "m_id": 36,
+            "createdAt": "2026-03-03T17:13:31.515Z",
+            "updatedAt": "2026-03-03T17:13:31.515Z"
+          }
+        },
+        {
+          "_id": "69a716bb96df4304dfdda7d6",
+          "m_flags": 1092,
+          "id": 1731,
+          "typeId": 15,
+          "iconId": 15262,
+          "level": 1,
+          "realWeight": 1,
+          "price": 4,
+          "itemSetId": -1,
+          "criterions": "",
+          "criterionsTarget": "",
+          "appearanceId": 0,
+          "isColorable": false,
+          "recipeSlots": 0,
+          "recipeIds": [
+            282,
+            13588,
+            16406,
+            16483,
+            16484,
+            17183,
+            17184,
+            24433,
+            27024
+          ],
+          "dropMonsterIds": [],
+          "dropTemporisMonsterIds": [],
+          "possibleEffects": [],
+          "evolutiveEffectIds": [],
+          "favoriteSubAreas": [],
+          "favoriteSubAreasBonus": 0,
+          "craftXpRatio": -1,
+          "craftVisibleCriterion": "",
+          "craftConditionalCriterion": "",
+          "craftFeasibleCriterion": "",
+          "visibilityCriterion": "",
+          "recyclingNuggets": 0,
+          "favoriteRecyclingSubareas": [],
+          "resourcesBySubarea": [],
+          "name": {
+            "id": "546377",
+            "de": "Topf mit schmackhafter Sauce",
+            "en": "Dose of Tasty Juice",
+            "es": "Dosis de zumo sabroso",
+            "fr": "Dose de jus goûtu",
+            "pt": "Dose de suco saboroso"
+          },
+          "description": {
+            "id": "31724",
+            "de": "Diese Sauce enthälte alle wesentlichen Aromen für ein herrlich würziges Mahl.",
+            "en": "A dose of tasty juice, sometimes known as chef's special sauce, will make a fine, rustic, slightly salty broth.",
+            "es": "Este zumo te proporcionará los sabores elementales para conseguir un plato perfumado.",
+            "fr": "Ce jus vous apportera les saveurs élémentaires pour avoir un plat parfumé.",
+            "pt": "Este suco trará a você os sabores básicos para se ter um prato saboroso."
+          },
+          "importantNotice": {
+            "id": "1156994",
+            "de": "Dieser Gegenstand kann folgendem Behälter entnommen werden: {{itemHover,16823}}.",
+            "en": "Obtain this item by using the {{itemHover,16823}} container.",
+            "es": "Este objeto se obtiene al utilizar el contenedor {{itemHover,16823}}.",
+            "fr": "Cet objet s'obtient en utilisant le conteneur {{itemHover,16823}}.",
+            "pt": "Este item é obtido utilizando o recipiente {{itemHover,16823}}."
+          },
+          "castInLine": false,
+          "castInDiagonal": false,
+          "castTestLos": false,
+          "usable": false,
+          "targetable": false,
+          "exchangeable": true,
+          "twoHanded": false,
+          "etheral": false,
+          "hideEffects": false,
+          "enhanceable": true,
+          "nonUsableOnAnother": false,
+          "secretRecipe": false,
+          "needUseConfirm": false,
+          "isSaleable": true,
+          "isLegendary": false,
+          "className": "ItemData",
+          "m_id": 1731,
+          "questsThatUse": [],
+          "questsThatReward": [],
+          "hasRecipe": false,
+          "hasLivingObjectSkinJntMood": false,
+          "recipesThatUse": [
+            282,
+            13588,
+            16406,
+            16483,
+            16484,
+            17183,
+            17184
+          ],
+          "startLegendaryTreasureHunt": 0,
+          "legendaryTreasureHuntThatReward": 0,
+          "achievementsThatReward": [],
+          "dropSubAreaIds": [],
+          "slug": {
+            "de": "topf mit schmackhafter sauce",
+            "en": "dose of tasty juice",
+            "es": "dosis de zumo sabroso",
+            "fr": "dose de jus goutu",
+            "pt": "dose de suco saboroso"
+          },
+          "effects": [],
+          "createdAt": "2026-03-03T17:13:31.779Z",
+          "updatedAt": "2026-03-03T17:13:31.779Z",
+          "img": "https://api.dofusdb.fr/img/items/15262.png",
+          "type": {
+            "_id": "69a716bb96df4304dfdda3bc",
+            "id": 15,
+            "superTypeId": 9,
+            "categoryId": 2,
+            "isInEncyclopedia": true,
+            "rawZone": "",
+            "craftXpRatio": -1,
+            "evolutiveTypeId": 0,
+            "name": {
+              "id": "1141213",
+              "de": "Diverse Ressource",
+              "en": "Miscellaneous Resource",
+              "es": "Recurso variado",
+              "fr": "Ressource diverse",
+              "pt": "Recurso diverso"
+            },
+            "className": "ItemTypeData",
+            "m_id": 15,
+            "createdAt": "2026-03-03T17:13:31.515Z",
+            "updatedAt": "2026-03-03T17:13:31.515Z"
+          }
+        },
+        {
+          "_id": "69a716bb96df4304dfdda598",
+          "m_flags": 1092,
+          "id": 533,
+          "typeId": 34,
+          "iconId": 34154,
+          "level": 40,
+          "realWeight": 2,
+          "price": 0,
+          "itemSetId": -1,
+          "criterions": "",
+          "criterionsTarget": "",
+          "appearanceId": 0,
+          "isColorable": false,
+          "recipeSlots": 0,
+          "recipeIds": [
+            282,
+            536,
+            1569,
+            1570,
+            1712,
+            7918,
+            8135,
+            8139,
+            8917,
+            9035,
+            11799,
+            12017,
+            15991,
+            16406,
+            16431,
+            16930,
+            16931,
+            17177,
+            17178,
+            17179,
+            17180,
+            24376,
+            24383,
+            24419,
+            24560,
+            24564,
+            26680,
+            27374,
+            28268,
+            33348,
+            33358
+          ],
+          "dropMonsterIds": [],
+          "dropTemporisMonsterIds": [],
+          "possibleEffects": [],
+          "evolutiveEffectIds": [],
+          "favoriteSubAreas": [],
+          "favoriteSubAreasBonus": 0,
+          "craftXpRatio": -1,
+          "craftVisibleCriterion": "",
+          "craftConditionalCriterion": "",
+          "craftFeasibleCriterion": "",
+          "visibilityCriterion": "",
+          "recyclingNuggets": 0.007000000216066837,
+          "favoriteRecyclingSubareas": [],
+          "resourcesBySubarea": [
+            [
+              3,
+              86
+            ],
+            [
+              68,
+              138
+            ],
+            [
+              95,
+              6
+            ],
+            [
+              98,
+              74
+            ],
+            [
+              170,
+              37
+            ],
+            [
+              306,
+              17
+            ],
+            [
+              518,
+              23
+            ],
+            [
+              519,
+              4
+            ],
+            [
+              1021,
+              1
+            ]
+          ],
+          "name": {
+            "id": "47031",
+            "de": "Hafer",
+            "en": "Oats",
+            "es": "Avena",
+            "fr": "Avoine",
+            "pt": "Aveia"
+          },
+          "description": {
+            "id": "47032",
+            "de": "Diese Getreidesorte wird gern dazu benutzt, junge Tabis zu füttern, die sie mit ihren noch nicht ausgewachsenen Zähnen noch nicht wiederkäuen können. Allerdings muss die Menge an Hafer sorgfältig kontrolliert werden, da Hafer bei Tabis mit empfindlichen Mägen schwere Blähungen verursachen kann.",
+            "en": "This type of cereal is used to feed the young Tabis, whose teeth are not sufficiently developed for hard foods. The peasants nevertheless dished it out with a fearful moderation, being well aware of the eye-watering damage wrought by a fibre-fed intestinal tract.",
+            "es": "Este cereal se utiliza para alimentar a los jóvenes tabis cuando no tienen aún los dientes bastante sólidos como para rumiar. A pesar de todo, los campesinos tienen mucho cuidado, ya que la avena causa a veces crisis de aerofagia en el ganado sensible.",
+            "fr": "Cette céréale est utilisée pour nourrir les jeunes Tabis, lorsqu'ils n'ont pas encore les dents assez solides pour ruminer. Les paysans font tout de même attention dans la mesure où l'avoine cause parfois des crises d'aérophagie chez le bétail sensible.",
+            "pt": "Este tipo de cereal é usado para alimentar jovens Tabis, muito jovens para ruminar. Os camponeses, no entanto, dão isto avarosamente, porque a aveia, às vezes, causa aerofobia em animais com estômago sensível."
+          },
+          "importantNotice": {
+            "id": "0"
+          },
+          "castInLine": false,
+          "castInDiagonal": false,
+          "castTestLos": false,
+          "usable": false,
+          "targetable": false,
+          "exchangeable": true,
+          "twoHanded": false,
+          "etheral": false,
+          "hideEffects": false,
+          "enhanceable": true,
+          "nonUsableOnAnother": false,
+          "secretRecipe": false,
+          "needUseConfirm": false,
+          "isSaleable": true,
+          "isLegendary": false,
+          "className": "ItemData",
+          "m_id": 533,
+          "questsThatUse": [
+            236,
+            985
+          ],
+          "questsThatReward": [],
+          "hasRecipe": false,
+          "hasLivingObjectSkinJntMood": false,
+          "recipesThatUse": [
+            282,
+            536,
+            1569,
+            1570,
+            1712,
+            7918,
+            8135,
+            8139,
+            8917,
+            9035,
+            11799,
+            12017,
+            15991,
+            16406,
+            16431,
+            16930,
+            16931,
+            17177,
+            17178,
+            17179,
+            17180,
+            26680,
+            27374,
+            28268,
+            33348,
+            33358
+          ],
+          "startLegendaryTreasureHunt": 0,
+          "legendaryTreasureHuntThatReward": 0,
+          "achievementsThatReward": [],
+          "dropSubAreaIds": [],
+          "slug": {
+            "de": "hafer",
+            "en": "oats",
+            "es": "avena",
+            "fr": "avoine",
+            "pt": "aveia"
+          },
+          "effects": [],
+          "createdAt": "2026-03-03T17:13:31.778Z",
+          "updatedAt": "2026-03-03T17:13:31.778Z",
+          "img": "https://api.dofusdb.fr/img/items/34154.png",
+          "type": {
+            "_id": "69a716bb96df4304dfdda3cf",
+            "id": 34,
+            "superTypeId": 9,
+            "categoryId": 2,
+            "isInEncyclopedia": true,
+            "rawZone": "",
+            "craftXpRatio": -1,
+            "evolutiveTypeId": 0,
+            "name": {
+              "id": "29769",
+              "de": "Getreide",
+              "en": "Cereal",
+              "es": "Cereal",
+              "fr": "Céréale",
+              "pt": "Cereal"
+            },
+            "className": "ItemTypeData",
+            "m_id": 34,
+            "createdAt": "2026-03-03T17:13:31.515Z",
+            "updatedAt": "2026-03-03T17:13:31.515Z"
+          }
+        }
+      ],
+      "job": {
+        "_id": "69a716bf96df4304dfddf8ad",
+        "id": 26,
+        "iconId": 14,
+        "hasLegendaryCraft": false,
+        "name": {
+          "id": "2770",
+          "de": "Alchemist",
+          "en": "Alchemist",
+          "es": "Alquimista",
+          "fr": "Alchimiste",
+          "pt": "Alquimista"
+        },
+        "className": "JobData",
+        "m_id": 26,
+        "createdAt": "2026-03-03T17:13:35.737Z",
+        "updatedAt": "2026-03-03T17:13:35.737Z",
+        "img": "https://api.dofusdb.fr/img/jobs/14.jpg"
+      },
+      "resultType": {
+        "_id": "69a716bb96df4304dfdda3b9",
+        "id": 12,
+        "superTypeId": 6,
+        "categoryId": 1,
+        "isInEncyclopedia": true,
+        "rawZone": "",
+        "craftXpRatio": 5,
+        "evolutiveTypeId": 0,
+        "name": {
+          "id": "29760",
+          "de": "Trank",
+          "en": "Potion",
+          "es": "Pócima",
+          "fr": "Potion",
+          "pt": "Poção"
+        },
+        "className": "ItemTypeData",
+        "m_id": 12,
+        "createdAt": "2026-03-03T17:13:31.515Z",
+        "updatedAt": "2026-03-03T17:13:31.515Z"
+      }
+    }
+  ]
+}
